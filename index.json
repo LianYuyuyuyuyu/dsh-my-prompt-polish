@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH Plugins",
+    "zh": "我的 DSH 插件"
+  },
+  "description": {
+    "en": "A personal source of DeepSeek Harness plugins.",
+    "zh": "个人维护的 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "UI 增强"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-my-prompt-polish",
+      "title": "LianYuyuyuyuyu/dsh-my-prompt-polish",
+      "description": {
+        "en": "A polish button in the DSH composer: rewrites the draft with a rule you write yourself and a model you pick, then puts the original back on a second click. Nothing is sent, and it refuses to replace a draft that changed, or one holding @ references.",
+        "zh": "DSH 输入框里的润色按钮：用你自己写的规则和你选的模型改写草稿，再点一下退回原文。不发送；草稿中途变了、或带 @ 引用时它拒绝替换。"
+      },
+      "icon": "assets/icon-180.png",
+      "author": "LianYuyuyuyuyu",
+      "homepage": "https://github.com/LianYuyuyuyuyu/dsh-my-prompt-polish",
+      "repository": {
+        "url": "https://github.com/LianYuyuyuyuyu/dsh-my-prompt-polish"
+      },
+      "metadata": {
+        "category": "ui"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795079443,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LianYuyuyuyuyu/dsh-my-prompt-polish",
+            "commit": "ccef7a43c03f092a3b5ee9e2552df7372a516b81"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
