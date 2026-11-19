@@ -37,12 +37,12 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1795079443,
+          "version": "0.1.1",
+          "publishTimestamp": 1795079804,
           "source": {
             "type": "git",
             "url": "https://github.com/LianYuyuyuyuyu/dsh-my-prompt-polish",
-            "commit": "ccef7a43c03f092a3b5ee9e2552df7372a516b81"
+            "commit": "2477378d69493fa46bac9c9f3ab683030e1c73ae"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1"
