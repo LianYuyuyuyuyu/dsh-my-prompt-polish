@@ -1,6 +1,6 @@
 {
   "name": "dsh-my-prompt-polish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A button beside the DSH composer: click once to rewrite the draft with your own rule and model, click again to restore the original.",
   "type": "module",
   "main": "./lib/index.js",
