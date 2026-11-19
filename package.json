@@ -1,0 +1,44 @@
+{
+  "name": "dsh-my-prompt-polish",
+  "version": "0.1.0",
+  "description": "A button beside the DSH composer: click once to rewrite the draft with your own rule and model, click again to restore the original.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LianYuyuyuyuyu/dsh-my-prompt-polish.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
